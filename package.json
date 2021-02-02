@@ -1,7 +1,7 @@
 {
-  "name": "default-structure",
+  "name": "bottyshop",
   "version": "1.0.0",
-  "description": "Default structure for front-end",
+  "description": "landing page for bottyshop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Med-MG/default-frontEnd.git"
   },
-  "author": "Mohamed Mouiguina, Abbassi Achraf",
+  "author": "Mohamed Mouiguina",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Med-MG/default-frontEnd.git/issues"
