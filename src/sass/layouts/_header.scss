@@ -1,0 +1,44 @@
+.backgroundcircle{
+    width: 100rem;
+    height: 100rem;
+    border-radius: 50%;
+    background: #6391d4;
+    background: linear-gradient(194deg,#6391d4,#63ccd4 73%,#63ccd4);
+    position: absolute;
+    top: -21rem;
+    right: -10rem;
+    &__girlImage{
+        width: 52rem;
+        top: 39rem;
+        position: relative;
+        left: 13rem;
+    }
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 5.7rem 1fr 2fr;
+    height: 90vh;
+    padding: 2.5rem 6rem;
+    &__logo-container{
+        align-self: end;
+        grid-area: 1/1/2/2;
+    }
+    &__logo{
+        width: 10rem;
+    }
+    &-sankMagic{
+        &__books{}
+        &__items{
+            &-image{}
+        }
+        &__bottom{}
+        &__title{}
+        &__pens{}
+    }
+
+    &__content-title{}
+    &__content-description{}
+    &__btn{}
+
+}
