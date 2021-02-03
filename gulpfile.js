@@ -116,7 +116,7 @@ function watch() {
     gulp.watch('./src/sass/**/*.scss', userref);
     gulp.watch('./src/*.html', userref);
     gulp.watch('./src/js/**/*.js', userref);
-    gulp.watch('./src/js/**/*.js', jspublic);
+    // gulp.watch('./src/js/**/*.js', jspublic);
     gulp.watch('./src/includes/*.html', userref);
     gulp.watch('./**/*.html').on('change', browserSync.reload);
     gulp.watch('./src/js/**/*.js').on('change', browserSync.reload);
@@ -128,6 +128,6 @@ exports.style = style;
 exports.watch = watch;
 exports.userref = userref;
 exports.imgminify = imgminify;
-exports.jspublic = jspublic;
-exports.stylePublic = stylePublic;
+// exports.jspublic = jspublic;
+// exports.stylePublic = stylePublic;
 // exports.fileincludes = fileincludes;

@@ -39,41 +39,41 @@
     transform: translate(-50%, -50%);
 }
 
-@mixin learnig-center_sizing {
-    @include custom_media(1580){
-        padding: 0 10rem;
-    }
-    @include custom_media(1700){
-        grid-gap: 5rem;
-    }
+// @mixin learnig-center_sizing {
+//     @include custom_media(1580){
+//         padding: 0 10rem;
+//     }
+//     @include custom_media(1700){
+//         grid-gap: 5rem;
+//     }
 
-    @include responsive(phone){
-        padding: 0 4rem;
-        margin-top: 5rem;
-    }
-}
+//     @include responsive(phone){
+//         padding: 0 4rem;
+//         margin-top: 5rem;
+//     }
+// }
 
 
-@mixin pages_header_1 {
-        background-image: url(../images/bg-heroPages1.png);
-        position: relative;
-        background-size: cover;
-        background-repeat: round;
-        height: 55vh;
-        @include responsive(phone){
-            height: 40vh;
-        }
-        @include responsive(phone-1){
-            height: 35vh;
-        }
-}
+// @mixin pages_header_1 {
+//         background-image: url(../images/bg-heroPages1.png);
+//         position: relative;
+//         background-size: cover;
+//         background-repeat: round;
+//         height: 55vh;
+//         @include responsive(phone){
+//             height: 40vh;
+//         }
+//         @include responsive(phone-1){
+//             height: 35vh;
+//         }
+// }
 
 
 // 16:9 video ratio
-@mixin videoratio($width) {
-    width: $width;
-    height: #{($width / 16)*9};
-}
+// @mixin videoratio($width) {
+//     width: $width;
+//     height: #{($width / 16)*9};
+// }
 //MEDIA QUERY MANNAGER
 
 /*

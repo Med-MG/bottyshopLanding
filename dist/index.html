@@ -4,647 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
-    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-    <!-- Forest -->
-    <link
-      href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css"
-      rel="stylesheet"
-    />
+ 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <!-- AddEvent script -->
-    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 
     <!-- onscroll animation library -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <!-- usefull utility classes -->
     <link rel="stylesheet" href="css/util.css">
     <!-- our own css -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>P curiosity lab</title>  
+    <title>Botty Shop</title>  
   </head>
   <body>
   
-<header class="hero-header">
-  <nav class="hero-header__nav">
-    <div class="logo-box">
-      <a href="index.html">
-        <img src="images/Logo-white.png" alt="logo" class="logo-box__img" />
-      </a>
-    </div>
-    <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-      <label for="navi-toggle" class="navigation__button" id="top-home">
-        <span class="navigation__icon">&nbsp;</span>
-      </label>
-
-      <div class="navigation__background" id="top-home-bg">&nbsp;</div>
-
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="index.html" class="navigation__link">&nbsp; &nbsp; &nbsp; Home &nbsp; &nbsp; &nbsp;</a>
-          </li>
-          <li class="navigation__item">
-            <label for="drop-1" class="toggle navigation__link">About us <i class="fa fa-angle-down"></i></label>
-            <a href="aboutUs.html" class="navigation__link"> &nbsp; &nbsp;About us <i class="fa fa-angle-down"></i>&nbsp; &nbsp;</a>
-            <input type="checkbox" id="drop-1">
-            <ul class="navigation__item-sub list-unstyled">
-              <li class="navigation__item"><a href="team.html" class="navigation__link"> &nbsp; &nbsp; &nbsp;Teams &nbsp; &nbsp; &nbsp;</a></li>
-              <li class="navigation__item"><a href="programms.html" class="navigation__link">&nbsp; &nbsp; &nbsp;Programs&nbsp; &nbsp; &nbsp;</a></li>
-            </ul>
-          </li>
-          <li class="navigation__item">
-            <a href="startups.html" class="navigation__link">&nbsp; &nbsp; Start-ups &nbsp; &nbsp;</a>
-          </li>
-          <li class="navigation__item">
-            <label for="drop-2" class="toggle navigation__link">Learning center <i class="fa fa-angle-down"></i></label>
-            <a href="learning_center.html" class="navigation__link">&nbsp; &nbsp; Learning center <i class="fa fa-angle-down"></i>&nbsp; &nbsp;</a>
-            <input type="checkbox" id="drop-2">
-            <ul class="navigation__item-sub list-unstyled">
-              <li class="navigation__item"><a href="blog.html" class="navigation__link">&nbsp; &nbsp; &nbsp;blog &nbsp; &nbsp; &nbsp;</a></li>
-              <li class="navigation__item"><a href="events-page.html" class="navigation__link">&nbsp; &nbsp; &nbsp;events&nbsp; &nbsp; &nbsp;</a></li>
-            </ul>
-          </li>
-          <li class="navigation__item">
-            <a href="contactUs.html" class="navigation__link"><span>05</span>Contact us</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </nav>
-
-  <div class="hero-header__main">
-    <div class="hero-header__main-text">
-      <h1 class="heading">
-        We are
-        <span class="secondary-variant">P-curiosity Lab</span> <br />
-        <span class="typist"></span>
-      </h1>
-      <p class="sub-heading">
-        An innovation lab to design a new farmers services bio-inspired
-      </p>
-    </div>
-    <div class="hero-header__slider owl-carousel owl-theme owl-loaded owl-drag">
-      <div class="hero-header__outer owl-stage-outer">
-        <div class="owl-stage">
-          <div class="video-mask owl-item">
-            <video class="video-js hero-header__video vjs-theme-forest" controls preload="auto"
-              poster="images/video-thumb.png"
-              data-setup='{"techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=dhtvdN7LPjA"}]}'>
-              <!-- <source src="https://vimeo.com/user116976756/review/425285787/0e3f968fab" type="video/mp4" /> -->
-              <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to
-                a web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-              </p>
-            </video>
-          </div>
-          <div class="hero-slide owl-item">
-            <img src="images/ennov2.png" alt="" class="hero-slide__img">
-          </div>
-          <div class="hero-slide owl-item">
-            <img src="images/ennov.png" alt="" class="hero-slide__img">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
+<!-- Header section -->
+<header class="header">
+  <div class="logo-container">
+    <img src="images/logo.png" alt="" class="header__logo">
   </div>
-  <a href="" class="btn btn--header btn--blue mt-4">Start A Projects
-    <img class="btn__arrow-tip" src="images/arrow-tip.svg" alt="arrow-tip" /></a>
+  <div class="header-sankMagic">
+    <ul class="header-sankMagic__books">
+      <li class="header-sankMagic__items">
+        <img src="images/book1.png" alt="" class="header-sankMagic__items-image">
+      </li>
+      <li class="header-sankMagic__items">
+        <img src="images/book2.png" alt="" class="header-sankMagic__items-image">
+      </li>
+      <li class="header-sankMagic__items">
+        <img src="images/book3.png" alt="" class="header-sankMagic__items-image">
+      </li>
+      <li class="header-sankMagic__items">
+        <img src="images/book4.png" alt="" class="header-sankMagic__items-image">
+      </li>
+    </ul>
+    <div class="header-sankMagic__bottom">
+      <h1 class="header-sankMagic__title">Sank Magic</h1>
+      <img src="images/book5.png" alt="" class="header-sankMagic__pens">
+    </div>
+  </div>
+  <div class="header__sideimage">
+    <div class="header__circle"></div>
+    <img src="images/girl.png" alt="" class="header__sideimage-girl">
+  </div>
+  <div class="header__content">
+    <h1 class="header__content-title">دفاتر التعلم السحرية</h1>
+    <p class="header_content-description">
+      كتب تعليمية قابلة لإعادة الاستخدام لمساعدة طفلك على تكوين الرسائل بشكل مثالي من خلال اتباع الخطوط المرسومة مسبقًا للحصول على الإيماءة الصحيحة لكل حرف.
+    </p>
+    <button class="header__btn">أطلب الأن</button>
+  </div>
 </header>
 
-<section class="mission">
-  <h1 class="mission__title" data-aos="fade-right">Mission</h1>
-  <div class="mission__wrapper" data-aos="zoom-in">
-    <h3 class="mission__subtitle">
-      We observe, we Design, we Prototype we Test then we Serve.
-    </h3>
-    <h5 class="mission__para">
-      We think about innovation in both ways, to deliver innovative & radically
-      inclusive services, and as a solution for market Challenges ”
-    </h5>
-    <div class="mission__more">
-      <a href="" class="mission__link">Learn More &rarr;</a>
-    </div>
-    <img class="mission__bg" src="images/bg-Mission.png" alt="" />
-  </div>
-</section>
 
 
-<section class="objectives">
-        <h1 class="objectives__title"  data-aos="zoom-in-up">PCL OBJECTIVES</h1>
-        <div class="objectives__wrapper">
-            <div class="objectives__wrapper1" data-aos="flip-left" data-aos-easing="ease-in-sine">
-                <img class="wrapper__icon1" src="images/objc1.png" alt="">
-                    <h5 class="wrapper__para">Groom and Incubate innovative ideas in early stages (from the ideation phase)</h5>
-            </div>
-            <div class="objectives__wrapper2" data-aos="flip-left" data-aos-easing="ease-in-sine">
-                <img class="wrapper__icon2" src="images/objc2.png" alt="">
-                <h5 class="wrapper__para">Focus on Corporate Innovation challenges</h5>
-            </div>
-            <div class="objectives__wrapper3" data-aos="flip-left" data-aos-easing="ease-in-sine">
-                <img class="wrapper__icon3" src="images/objc3.png" alt="">
-                <h5 class="wrapper__para">Valorize data-driven insights in order to boost go-to market services</h5>
-            </div>
-        </div>
-</section > <section class="work u-mt-b">
-    <div class="block-title__line"></div>
-  <h1 class="work__title" data-aos="zoom-in-up">HOW DOES IT WORK?</h1>
-  <img src="images/funnel.png" alt="" data-aos="zoom-in-down" data-aos-easing="ease-in-sine">
-</section>
-
-<section class="offer">
-    <div class="block-title__line"></div>
-    <h1 class="offer__title" data-aos="zoom-in-up">WHAT WE OFFER ?</h1>
-    <div class="offer__titles" data-aos="fade-up-right">
-        <h3 class="titles__title1 active">To Rural Communities</h3>
-        <h3 class="titles__title2">To Idea-Holders</h3>
-        <h3 class="titles__title3">To Business</h3>
-        <h3 class="titles__title4">To Researchers & Scientifics</h3>
-    </div>
-    <div class="offer__wrapper rural " data-aos="fade-up-right">
-        <div class="offer__wrapper--img">
-            <img src="images/rural.png" alt="Rural Communities">
-        </div>
-        <h1 class="offer__wrapper--title">To Rural Communities</h1>
-        <p class="offer__wrapper--para"><span>Bringing knowledge to market :</span> <br>
-            Where innovation starts. That is our slogan and it complements our
-            knowledge development and education. We translate our academic and
-            technological findings into solutions that help tackle smallholder farmers
-            challenges. Successful knowledge valorization gives us a position at the
-            heart of the africain knowledge economy. <br>
-            <span>Business expertise center :</span> <br>
-            We do that within our expertise center by translating knowledge to
-            business. For this purpose we have an enthusiastic and experienced team
-            of experts and business advisors available to help PCL.</p>
-            <div class="offer__more">
-                <a href="" class="offer__link">Read More &rarr;</a>
-            </div>
-    </div>
-    <div class="offer__wrapper idea " data-aos="fade-up-right">
-        <div class="offer__wrapper--img">
-            <img src="images/idea-holders.png" alt="idea-holders">
-        </div>
-        <h1 class="offer__wrapper--title">To idea-holders</h1>
-        <p class="offer__wrapper--para"><span>To make your idea Succeed : </span><br>
-            The LAB is aimed at who want 
-            to start their start-up, test their ideas, develop prototypes in 
-            practice in order to prepare a market-ready product or 
-            service.
-             <br>
-            <span>To be able to address a relevant business challenges :</span> <br>
-            Startups can help business services to find a new 
-            opportunities and scale partnership. <br>
-            <span>To take advantage of a unique collaboration opportunities :</span>   <br>
-            The LAB members will be able to collaborate with different teams : commercial, scientific, etc. and to have acces to UM6P’s living LABs (Experimental farm, Fab LAB, Energy Green Park, etc.)
-             </p>
-             <div class="offer__more">
-                <a href="" class="offer__link">Read More &rarr;</a>
-            </div>
-    </div>
-    <div class="offer__wrapper business " data-aos="fade-up-right">
-        <div class="offer__wrapper--img">
-            <img src="images/business.png" alt="business">
-        </div>
-        <h1 class="offer__wrapper--title">To business</h1>
-        <p class="offer__wrapper--para">The P-Curiosity LAB aims to develop new ideas to address the companies's challenges. We see ourselves as trend scout, networker, unconventional think tank, knowledge carrier, partner, and facilitator unified in our goal to play an active part in shaping the future of smallholder farmer through innovation. 
-            service.
-             <br>
-            <span>As part of consortium, you will be able to :</span> <br>
-            - Take advantage on collaboration with the researches institutes, corporations, ONG’s, the scientifics, etc. This collaboration will hustles with innovative people & their world-shaping ideas
-            opportunities and scale partnership. <br>
-            - Transform by identifying and creating new services and finding a new business opportunities
-            <div class="offer__more">
-                <a href="" class="offer__link">Read More &rarr;</a>
-            </div>
-    </div>
-    <div class="offer__wrapper scientifics " data-aos="fade-up-right">
-        <div class="offer__wrapper--img">
-            <img src="images/researchers.png" alt="researchers & scientifics">
-        </div>
-        <h1 class="offer__wrapper--title">To researchers & scientifics</h1>
-        <p class="offer__wrapper--para"><span>Bringing knowledge to market:</span><br>
-            Where innovation starts. That is our slogan and it complements our knowledge development and education. We translate our academic and technological findings into solutions that help tackle smallholer farmers challenges. Successful knowledge valorization gives us a position at the heart of the africain knowledge economy. 
-             <br>
-            <span>Business expertise center:</span> <br>
-            We do that within our expertise center by translating knowledge to business. For this purpose we have an enthusiastic and experienced team of experts and business advisors available to help PCL members as well as external parties.
-             </p>
-             <div class="offer__more">
-                <a href="" class="offer__link">Read More &rarr;</a>
-            </div>
-    </div>
-</section>
- <section class="events">
-  <img src="images/circle.png" alt="background circle" class="bg-circle" class="bg-circle" data-aos="fade-right" data-aos-delay="300" />
-  <div class="block-title__line" data-aos="zoom-in-up"></div>
-  <div class="events__title">
-    <h1 class="events__heading">our events</h1>
-    <p class="events__subheading">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quis?
-    </p>
-  </div>
-  <div class="events__main u-mt-b">
-    <div class="events__list"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-      <div class="events__item events__item--1 event-active">
-        <h3 class="events__item-title">Biomimicry Festival</h3>
-        <p class="events__item-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-          obcaecati .
-        </p>
-      </div>
-      <div class="events__item events__item--2">
-        <h3 class="events__item-title">The Curiosity Café</h3>
-        <p class="events__item-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-          obcaecati .
-        </p>
-      </div>
-      <div class="events__item events__item--3">
-        <h3 class="events__item-title">The Annual Convention</h3>
-        <p class="events__item-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-          obcaecati .
-        </p>
-      </div>
-    </div>
-    <div class="events__display" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-      <div class="events__display-box">
-        <img
-          src="images/um6pevent.jpg"
-          alt="event image"
-          class="events__display-img"
-        />
-      </div>
-      <div class="events__display-info">
-        <div class="events__display-info--1">
-          <i class="fas fa-map-marker-alt events__display-info-icon"></i>
-          <div class="events__display-info-box">
-          <h3 class="events__display-info-title">Event Location</h3>
-          <p class="events__display-info-description event-location">
-            University Med 6, benguerir Maroc
-          </p>
-        </div>
-        </div>
-        <div class="events__display-info--2">
-          <i class="far fa-calendar-check events__display-info-icon"></i>
-          <div class="events__display-info-box">
-            <h3 class="events__display-info-title">Event Date</h3>
-            <p class="events__display-info-description event-date">24 January, 2021</p>
-          </div>
-        </div>
-      </div>
-      <a href="" class="btn-text btn-text__events u-mt-b">Learn More &rarr;</a>
-    </div>
-  </div>
-</section>
-
-<section class="news u-mt-b">
-    <div class="block-title__line"></div>
-  <div class="news-title" data-aos="zoom-in-up">
-    <h1 class="news-title__heading">Latest News</h1>
-    <p class="news-title__subheading">
-      Start working with
-      <span class="secondary-variant">P-Curiosity lab</span> that can provide
-      everything you need to generate awareness, drive traffic, connect.
-    </p>
-  </div>
-  <div class="news__navigation owl-nav" data-aos="zoom-out-right">
-    <span class="news__navigation-btn news__navigation-btn--left news-prev">
-      <i class="fas fa-chevron-left news-nav-icon"></i>
-    </span>
-  
-    <span class="news__navigation-btn news__navigation-btn--right news-next">
-      <i class="fas fa-chevron-right news-nav-icon"></i>
-    </span>
-  </div>
-  <div class="news__blog owl-carousel owl-theme owl-loaded owl-drag"  data-aos="zoom-out-right">
-    <div class="owl-stage-outer">
-      <div class="owl-stage">
-
-      
-    <!-- news card number1 -->
-    <div class="news__card owl-item">
-      <div class="news__card-top">
-        <img
-          src="images/post-1.png"
-          alt=""
-          class="news__card-top-img rounded-top"
-        />
-        <div class="news__card-top-overlay"></div>
-        <div class="author">
-          <small class="text-light user d-block"
-            ><i class="fas fa-user"></i> Calvin Carlo</small
-          >
-          <small class="text-light date d-block"
-            ><i class="far fa-calendar-check"></i> 13th August, 2019</small
-          >
-        </div>
-      </div>
-      <div class="news__card-body">
-        <p class="news__card-category"> Social Video </p>
-        <h5 class="news__card-title">
-          <a href="" class="card-title">
-            Design your apps your own way
-          </a>
-        </h5>
-        <div class="news__card-body-meta u-mt-m">
-          <ul class="news__card-body-list list-unstyled">
-            <li class="news__card-body-item u-mr-2">
-              <a href="javascript:void(0)" class="text-muted like">
-                <i class="far fa-heart"></i>
-                33
-              </a>
-            </li>
-            <li class="news__card-body-item">
-              <a href="javascript:void(0)" class="text-muted comment">
-                <i class="far fa-comment-alt"></i>
-                07
-              </a>
-            </li>
-          </ul>
-          <a href="#" class="text-muted btn-blog">
-            Read More
-            <i class="fas fa-chevron-right btn-blog__icon"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- news card number2 -->
-    <div class="news__card owl-item">
-      <div class="news__card-top">
-        <img
-          src="images/post-2.jpg"
-          alt=""
-          class="news__card-top-img rounded-top"
-        />
-        <div class="news__card-top-overlay"></div>
-        <div class="author">
-          <small class="text-light user d-block"
-            ><i class="fas fa-user"></i> Calvin Carlo</small
-          >
-          <small class="text-light date d-block"
-            ><i class="far fa-calendar-check"></i> 13th August, 2019</small
-          >
-        </div>
-      </div>
-      <div class="news__card-body">
-        <p class="news__card-category"> Company news </p>
-        <h5 class="news__card-title">
-          <a href="" class="card-title">
-            Design your apps your own way
-          </a>
-        </h5>
-        <div class="news__card-body-meta u-mt-m">
-          <ul class="news__card-body-list list-unstyled">
-            <li class="news__card-body-item u-mr-2">
-              <a href="javascript:void(0)" class="text-muted like">
-                <i class="far fa-heart"></i>
-                33
-              </a>
-            </li>
-            <li class="news__card-body-item">
-              <a href="javascript:void(0)" class="text-muted comment">
-                <i class="far fa-comment-alt"></i>
-                07
-              </a>
-            </li>
-          </ul>
-          <a href="#" class="text-muted btn-blog">
-            Read More
-            <i class="fas fa-chevron-right btn-blog__icon"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- news card number3 -->
-    <div class="news__card owl-item">
-      <div class="news__card-top">
-        <img
-          src="images/post-4.jpg"
-          alt=""
-          class="news__card-top-img rounded-top"
-        />
-        <div class="news__card-top-overlay"></div>
-        <div class="author">
-          <small class="text-light user d-block"
-            ><i class="fas fa-user"></i> Calvin Carlo</small
-          >
-          <small class="text-light date d-block"
-            ><i class="far fa-calendar-check"></i> 13th August, 2019</small
-          >
-        </div>
-      </div>
-      <div class="news__card-body">
-        <p class="news__card-category"> COVID-19 </p>
-        <h5 class="news__card-title">
-          <a href="" class="card-title">
-            Design your apps your own way
-          </a>
-        </h5>
-        <div class="news__card-body-meta u-mt-m">
-          <ul class="news__card-body-list list-unstyled">
-            <li class="news__card-body-item u-mr-2">
-              <a href="javascript:void(0)" class="text-muted like">
-                <i class="far fa-heart"></i>
-                33
-              </a>
-            </li>
-            <li class="news__card-body-item">
-              <a href="javascript:void(0)" class="text-muted comment">
-                <i class="far fa-comment-alt"></i>
-                07
-              </a>
-            </li>
-          </ul>
-          <a href="#" class="text-muted btn-blog">
-            Read More
-            <i class="fas fa-chevron-right btn-blog__icon"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- news card number3 -->
-    <div class="news__card owl-item">
-      <div class="news__card-top">
-        <img
-          src="images/post-3.png"
-          alt=""
-          class="news__card-top-img rounded-top"
-        />
-        <div class="news__card-top-overlay"></div>
-        <div class="author">
-          <small class="text-light user d-block"
-            ><i class="fas fa-user"></i> Calvin Carlo</small
-          >
-          <small class="text-light date d-block"
-            ><i class="far fa-calendar-check"></i> 13th August, 2019</small
-          >
-        </div>
-      </div>
-      <div class="news__card-body">
-        <p class="news__card-category"> Emerging Tech </p>
-        <h5 class="news__card-title">
-          <a href="" class="card-title">
-            Design your apps your own way
-          </a>
-        </h5>
-        <div class="news__card-body-meta u-mt-m">
-          <ul class="news__card-body-list list-unstyled">
-            <li class="news__card-body-item u-mr-2">
-              <a href="javascript:void(0)" class="text-muted like">
-                <i class="far fa-heart"></i>
-                33
-              </a>
-            </li>
-            <li class="news__card-body-item">
-              <a href="javascript:void(0)" class="text-muted comment">
-                <i class="far fa-comment-alt"></i>
-                07
-              </a>
-            </li>
-          </ul>
-          <a href="#" class="text-muted btn-blog">
-            Read More
-            <i class="fas fa-chevron-right btn-blog__icon"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</section> <section class="getStarted">
-    <h1 class="getStarted__title" data-aos="zoom-in-up">Get started with us</h1>
-    <h3 class="getStarted__subtitle" data-aos="zoom-in-up">A better experience for your customers, fewer headaches for your team.
-        You'll be set up in minutes.</h3>
-    <button class="getStarted__btn" data-aos="zoom-in-up">Get Started</button>
-    <img class="getStarted__bg" src="images/get_started_bg.png" alt="contact us" data-aos="zoom-in-up">
-</section>
-<footer class="footer" data-aos="fade-up"
-data-aos-duration="1000">
-    <div class="partners">
-        <h1 class="partners__title">Partners</h1>
-        <ul class="partners__list list-unstyled">
-            <li class="partners__item">
-             <a href="#"><img src="images/um6plogo.png" alt="ump logo" class="partners__img"></a>  
-            </li>
-            <!-- <li class="partners__item">
-             <a href="#"><img src="images/youcode_partner.png" alt="ump logo" class="partners__img"></a>  
-            </li> -->
-            <li class="partners__item">
-               <a href="#"><img src="images/ocp.png" alt="ocp logo" class="partners__img"></a> 
-            </li>
-            <li class="partners__item">
-              <a href="#"><img src="images/gantour.png" alt="gantour logo" class="partners__img"></a>
-            </li>
-        </ul>
-    </div>
-    <div class="footer-container u-mt-b">
-        <div class="footer__info">
-             <a href="index.html"><img src="images/logo.png" alt="P-lab logo" class="footer__info-logo"></a>
-            <div class="footer__info-contact mt-4">
-                <h3 class="footer__info-email">
-                    <b>Email:</b>
-                    <span class="text-muted">pcuriositylab@um6p.ma</span>
-                </h3>
-                <h3 class="footer__info-phone">
-                    <b>Phone:</b>
-                    <span class="text-muted">+212-661-506-967</span>
-                </h3>
-                <div class="footer__info-email-input mt-4">
-                    <input type="email" name="email" id="email-input" placeholder="Email">
-                    <img src="images/arrow.svg" alt="arrow icon" class="footer__info-email-input-icon">
-                </div>
-                <ul class="footer__info-social list-unstyled mt-4">
-                    <li class="footer__info-icon">
-                        <a href="#"><img src="images/twitter.png" alt="twitter" class="footer__info-icon-img"></a>
-                    </li>
-                    <li class="footer__info-icon">
-                        <a href="#"><img src="images/facebook.png" alt="facebook" class="footer__info-icon-img"></a>
-                    </li>
-                    <li class="footer__info-icon">
-                        <a href="#"><img src="images/instagram.png" alt="instagram" class="footer__info-icon-img"></a>
-                    </li>
-                    <li class="footer__info-icon">
-                        <a href="#"><img src="images/linkdin.png" alt="linkdin" class="footer__info-icon-img"></a>
-                    </li>
-                    <li class="footer__info-icon">
-                        <a href="#"><img src="images/youtube.png" alt="youtube" class="footer__info-icon-img"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <ul class="footer__useful list-unstyled">
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links footer__useful-links-heading">About Us</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Innovation</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Diversity</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Entreoreneurship</a>
-            </li>
-        </ul>
-
-        <ul class="footer__useful list-unstyled">
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links footer__useful-links-heading">Workflow</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Project Management</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Agile</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Task Management</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">See All Teams</a>
-            </li>
-        </ul>
-        <ul class="footer__useful list-unstyled">
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links footer__useful-links-heading">Help</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">FAQ</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Privacy</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Terms & contions</a>
-            </li>
-            <li class="footer__useful-item">
-                <a href="" class="footer__useful-links">Tools & Integrations</a>
-            </li>
-        </ul>
-    </div>
-
-</footer>
-<div class="subfooter">
-    <h5 class="text-muted subfooter__copyright">Copyright © 2020 Designed by <span class="secondary-variant">YouCode Students</span></h5>
-    <div class="subfooter__terms">
-        <h5 class="text-muted subfooter__tos">Terms of use</h5>
-        <span class="subfooter-saperator"></span>
-        <h5 class="text-muted subfooter__privacy">Privacy policy</h5>
-    </div>
-</div>
     
     <script src="js/jquery.min.js"></script>
     <script src="js/typed-js/typed.min.js"></script>
@@ -692,7 +110,7 @@ data-aos-duration="1000">
 </html>
 
 <!-- custom js -->
-<script>
+<!-- <script>
   var typed = new Typed(".typist", {
     strings: [
       "true innovation",
@@ -743,4 +161,4 @@ data-aos-duration="1000">
     // Parameters has to be in square bracket '[]'
     owl.trigger("prev.owl.carousel", [300]);
   });
-</script>
+</script> -->
