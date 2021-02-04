@@ -13,6 +13,23 @@
         height: 175rem;
         top: -69rem;
     }
+    @include responsive(tab-land-1){
+        width: 145rem;
+        height: 173rem;
+    }
+    @include responsive(tab-port-1){
+            width: 127rem;
+    }
+    @include responsive(phone){
+        width: 116rem;
+    }
+    @include responsive(phone-1){
+        width: 95rem;
+        height: 157rem;
+    }
+    @include responsive(iphone){
+        width: 89rem;
+    }
     &__girlImage{
         width: 56rem;
         top: 45rem;
@@ -24,6 +41,12 @@
             left: 50%;
             transform: translateX(-50%);
         }
+        @include responsive(phone){
+            width: 51rem;
+        }
+        @include responsive(phone-1){
+            width: 39rem;
+        }
     }
 }
 .header {
@@ -32,6 +55,12 @@
     grid-template-rows: 5.7rem 1fr 2fr;
     height: 90vh;
     padding: 2.5rem 6rem;
+    @include custom_media(1400){
+        grid-template-rows: 5.7rem 1fr 63rem  2fr;
+    }
+    @include responsive(phone-1){
+        grid-template-rows: 5.7rem 1fr 48rem  2fr;
+    }
     &__logo-container{
         align-self: end;
         grid-area: 1/1/2/2;
@@ -61,6 +90,9 @@
             position: static;
             margin-top: 3rem;
         }
+        @include responsive(phone-1) {
+            width: 57rem;
+        }
         &__books{
             display: flex;
             justify-content: space-around;
@@ -68,6 +100,9 @@
         &__items{
             &-image{
                 width: 12rem;
+                @include responsive(phone-1){
+                    width: 10rem;
+                }
             }
         }
         &__bottom{
@@ -91,10 +126,19 @@
         text-align: center;
         padding-top: 5rem;
         position: relative;
+        @include custom_media(1400){
+            grid-area: 4/1/5/3
+        }
         &-title{
             @include main-title;
             font-size: 7rem;
-            margin-bottom: 2.5rem
+            margin-bottom: 2.5rem;
+            @include responsive(phone-1){
+                font-size: 6rem;
+            }
+            @include responsive(iphone){
+                font-size: 5rem;
+            }
         }
         &-description{
             @include description-font;
@@ -102,7 +146,11 @@
             width: 64%;
             margin: 0 auto;
             line-height: 1.7;
-            margin-bottom: 2.5rem
+            margin-bottom: 2.5rem;
+            @include responsive(phone-1){
+                width: 100%;
+                font-size: 2.5rem;
+            }
         }
         &-circle {
             width: 16rem;
@@ -116,12 +164,35 @@
             @include custom_media(1746){
                 right: 11rem; 
             }
+            @include custom_media(1400){
+                right: 40rem;
+            }
+            @include custom_media(1280){
+                right: 34rem;
+            }
+            @include responsive(tab-land-1){
+                right: 14rem;
+            }
+            @include responsive(phone){
+                right: 6rem;
+            }
+            @include responsive(phone-1){
+                right: 0;
+                width: 13rem;
+                height: 13rem;
+            }
+            @include responsive(iphone){
+                right: 10px;
+            }
         }
     }
 
     &__btn{
         width: 50%;
         box-shadow: 0.6rem -0.4rem 8.7rem 0 rgba($tertiary, .2);
+        @include responsive(phone-1){
+            width: 100%;
+        }
     }
 
 }

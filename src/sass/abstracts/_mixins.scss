@@ -23,7 +23,7 @@
 @mixin  main-title {
     color: $primary-variant;
     font-size: 4rem;
-    font-weight: $medium-font-weight;
+    font-weight: 600;
 }
 
 @mixin main-subheading {
