@@ -71,10 +71,10 @@ function showpixles(){
     $client->setAuthConfig(__DIR__ . '/credentials.json');
     $client->setAccessType('offline');
     $service = new Google_Service_Sheets($client);
-    $spreadsheetId = "1VPDLAmNXI50q2PkGBG9bPdVhyl17q9ahDIQv2VFawEM";
+    $spreadsheetId = "16pb91svUhhy2cq2UG6NMs9xhV7eWzWtIfNAXxlw2xgQ";
 
     //getting the last inserted row id
-    $rangepix = "biohair!T2:U";
+    $rangepix = "cahier!T2:U";
     $response = $service->spreadsheets_values->get($spreadsheetId,$rangepix);
     $values = $response->getValues();
     if (empty($values)) {
