@@ -164,3 +164,143 @@
         text-align: center;
     }
 }
+
+
+.button-whatsapp {
+	background-color: #25D366 !important;
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1rem;
+    transition: all .2s;
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 1.4rem 7rem;
+
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
+	&:hover {
+		background: lighten(#25D366, 1%);
+	}
+	&.button-shadow {
+
+		&::before {
+			box-shadow: 0 8px 16px rgba(#25D366, .25);
+			mix-blend-mode: normal;
+		}
+
+		&:hover {
+
+			&::before {
+				box-shadow: 0 8px 16px rgba(#25D366, .35);
+			}
+		}
+	}
+
+	&__img{
+		position: absolute;
+		top: 50%;
+		transform: translate(-373%, -50%);
+		width: 2.5rem;
+		left: 50%;
+	}
+
+}
+
+.button-sticky {
+	width: 50%;
+	margin: 0 auto;
+    display: block;
+    text-align: center;
+	&:not(:last-child){
+		margin-right: 1rem;
+	}
+	position: relative;
+
+}
+
+.button-popup{
+	width: 30%;
+	font-size: 1.3rem;
+	@include custom_media(640) {
+		font-size: 1rem;
+		width: 100%;
+	}
+}
+
+.button-block {
+	display: flex;
+}
+.button-whatsapp {
+	background-color: #25D366 !important;
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1rem;
+    transition: all .2s;
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 1.4rem 7rem;
+
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
+	&:hover {
+		background: lighten(#25D366, 1%);
+	}
+	&.button-shadow {
+
+		&::before {
+			box-shadow: 0 8px 16px rgba(#25D366, .25);
+			mix-blend-mode: normal;
+		}
+
+		&:hover {
+
+			&::before {
+				box-shadow: 0 8px 16px rgba(#25D366, .35);
+			}
+		}
+	}
+
+	&__img{
+		position: absolute;
+		top: 50%;
+		transform: translate(-373%, -50%);
+		width: 2.5rem;
+		left: 50%;
+	}
+
+}
+
+.button-sticky {
+	width: 50%;
+	margin: 0 auto;
+    display: block;
+    text-align: center;
+	&:not(:last-child){
+		margin-right: 1rem;
+	}
+	position: relative;
+
+}
+
+.button-popup{
+	width: 30%;
+	font-size: 1.3rem;
+	@include custom_media(640) {
+		font-size: 1rem;
+		width: 100%;
+	}
+}
+
+.button-block {
+	display: flex;
+}
