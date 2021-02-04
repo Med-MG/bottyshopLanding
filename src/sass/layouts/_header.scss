@@ -53,13 +53,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5.7rem 1fr 2fr;
-    height: 90vh;
+    height: auto;
     padding: 2.5rem 6rem;
     @include custom_media(1400){
         grid-template-rows: 5.7rem 1fr 63rem  2fr;
     }
+    @include custom_media(1186) {
+        margin-bottom: 11rem;
+    }
     @include responsive(phone-1){
-        grid-template-rows: 5.7rem 1fr 48rem  2fr;
+        grid-template-rows: 5.7rem 1fr 48rem  1fr;
+    }
+    @include custom_media(478){
+        grid-template-rows: 5.7rem 1fr 35rem  1fr;
+    }
+    @include responsive(phone){
+        margin-bottom: 16rem;
     }
     &__logo-container{
         align-self: end;
@@ -90,6 +99,10 @@
             position: static;
             margin-top: 3rem;
         }
+        @include custom_media(478){
+            height: 28rem;
+        }
+
         @include responsive(phone-1) {
             width: 57rem;
         }
@@ -131,9 +144,8 @@
         }
         &-title{
             @include main-title;
-            font-size: 7rem;
             margin-bottom: 2.5rem;
-            @include responsive(phone-1){
+            @include custom_media(522){
                 font-size: 6rem;
             }
             @include responsive(iphone){
@@ -142,7 +154,6 @@
         }
         &-description{
             @include description-font;
-            font-size: 3rem;
             width: 64%;
             margin: 0 auto;
             line-height: 1.7;
