@@ -13,7 +13,7 @@ node_modules
 *.sql
 # Icon must end with two \r
 Icon
-
+credentials.json
 # Thumbnails
 ._*
 
