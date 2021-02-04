@@ -7,7 +7,7 @@
 @mixin description-font {
     font-size: 1.5rem;
     font-weight: $light-font-weight;
-    color: $primary-variant;
+    color: $description-color;
 }
 
 
@@ -21,7 +21,7 @@
 }
 
 @mixin  main-title {
-    color: $primary;
+    color: $primary-variant;
     font-size: 4rem;
     font-weight: $medium-font-weight;
 }

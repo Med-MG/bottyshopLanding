@@ -10,8 +10,8 @@
         border-radius: 1rem;
         transition: all .2s;
         position: relative;
-        font-size: 2.6rem;
-
+        font-size: 2.9rem;
+        font-family: "Cairo", sans-serif;
         //Change for the <button> element
         border: none;
         cursor: pointer;
@@ -23,14 +23,10 @@
         // }
     }
 
-    &__arrow-tip {
-        width: 1.3rem;
-        margin-left: 2rem;
-    }
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        box-shadow: 0 1rem 2rem rgba($tertiary, .2);
 
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
@@ -42,26 +38,9 @@
     &:focus {
         outline: none;
         transform: translateY(-1px);
-        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+        box-shadow: 0 .5rem 1rem rgba($tertiary, .2);
     }
 
-    &--blue {
-        background-color: $secondary-variant;
-        color: $color-white;
-       
-        &::after {
-            background-color: $secondary-variant;
-        }
-    }
-
-    &--header {
-        @include responsive(small-desktop) {
-            margin: 4rem auto;
-            display: block !important;
-            width: 35rem;
-        }
-
-    }
 
     &--tertiary {
         background-color: $tertiary;
