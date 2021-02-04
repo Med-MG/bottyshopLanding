@@ -50,6 +50,14 @@
             background-color: $tertiary;
         }
     }
+    &--buy {
+        background-color: $third-variant;
+        color: $color-white;
+       
+        &::after {
+            background-color: $third-variant;
+        }
+    }
 
 
     &::after {

@@ -72,29 +72,30 @@
   
 </section>
 <section class="buy">
+  <img src="images/Recblue.svg" alt="" class="buy__designRec">
   <div class="sectionHeader">
     <img src="images/TitleIcon.svg" alt="" class="sectionHeader__img">
     <h1 class="sectionHeader__title">أطالب الأن</h1>
   </div>
   <div class="buy__layout">
-    <img src="images/footerimg.png" alt="" class="buy__image">
+    <img srcset="images/footerimg.png 1920w, images/footerimgmobile.png 1024w" alt="" class="buy__image">
     <form action="#" class="buy__form" id='buy-form'>
       <img src="images/logo.png" alt="botty shop" class="buy__logo">
-      <ul class="buy__list">
+      <ul class="buy__list list-unstyled">
         <li class="buy__item">
-          <input class="buy__item-input" type="text" placeholder="الأسم الكامل">
+          <input class="buy__item-input" type="text" name="fullname" placeholder="الأسم الكامل">
         </li>
         <li class="buy__item">
-          <input class="buy__item-input" type="text" placeholder="الأسم الكامل">
+          <input class="buy__item-input" type="text" required name="phone" placeholder="رقم الهاتف">
         </li>
         <li class="buy__item">
-          <input class="buy__item-input" type="text" placeholder="الأسم الكامل">
+          <input class="buy__item-input" type="text" name="address" placeholder="العنوان">
         </li>
         <li class="buy__item">
-          <input class="buy__item-input" type="text" placeholder="الأسم الكامل">
+          <input class="buy__item-input" type="text" name="city" placeholder="المدينة">
         </li>
         <li class="buy__item">
-          <a class="btn" href="#buy-form">أطلب الآن</a>
+          <a class="btn btn--buy buy__btn mt-4" href="#buy-form">أطلب الآن</a>
         </li>
       </ul>
     </form>

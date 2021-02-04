@@ -1,0 +1,88 @@
+.buy{
+    position: relative;
+    &__designRec{
+        position: absolute;
+        right: 10rem;
+        top: 16rem;
+    }
+    &__layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 15rem auto;
+        @include responsive(tab-land-1){
+            grid-template-rows: 3rem 1fr auto;
+        }
+    }
+    &__image{
+        grid-area: 1/1/3/2;
+        width: 82rem;
+        @include custom_media(1346){
+            width: 68rem;
+        }
+        @include responsive(tab-land-1){
+            grid-area: 3/1/4/3;
+            width: 100%;
+        }
+    }
+    &__form{
+        grid-area: 2/2/3/3;
+        background-color: $color-white;
+        box-shadow: 0rem 6rem 25rem rgba(18, 31, 114, .14);
+        width: 72%;
+        height: auto;
+        padding: 5rem;
+        place-self: center;
+        border-radius: 2rem;
+       
+        @include responsive(tab-land-1){
+            grid-area: 2/1/3/3;
+        }
+        @include responsive(phone){
+            width: 80%;
+        }
+    }
+    &__logo{
+        width: 14rem;
+        display: block;
+        margin: 1rem auto;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    &__item{
+        margin-bottom: 3rem;
+        width: 68%;
+        margin-left: auto;
+        margin-right: auto;
+        @include responsive(phone){
+            width: 91%;
+        }
+        &-input{
+            direction: rtl;
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 1.7rem 2rem;
+            width: 100%;
+            border: 1px solid $alt-color;
+            border-radius: .6rem;
+            color: $primary-variant;
+            box-shadow: 0 2rem 5.2rem 0.2rem rgba($alt-color, .1);
+            &:focus{
+             border: 1px solid $third-variant;
+            }
+            &::placeholder{
+                font-family: "Cairo", sans-serif;
+                color: $placeholder-color;
+                font-size: 1.7rem;
+                font-weight: 400;
+            }
+        }
+    }
+    &__btn{
+        width: 100%;
+        text-align: center;
+    }
+}
