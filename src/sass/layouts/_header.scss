@@ -145,12 +145,7 @@
         &-title{
             @include main-title;
             margin-bottom: 2.5rem;
-            @include custom_media(522){
-                font-size: 6rem;
-            }
-            @include responsive(iphone){
-                font-size: 5rem;
-            }
+
         }
         &-description{
             @include description-font;

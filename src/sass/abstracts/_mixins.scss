@@ -24,6 +24,12 @@
     color: $primary-variant;
     font-size: 7rem;
     font-weight: 700;
+    @include custom_media(522){
+        font-size: 6rem;
+    }
+    @include responsive(iphone){
+        font-size: 5rem;
+    }
 }
 
 @mixin main-subheading {
