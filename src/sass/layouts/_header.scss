@@ -50,6 +50,7 @@
     }
 }
 .header {
+    position: relative;;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5.7rem 1fr 2fr;

@@ -25,11 +25,12 @@
   <body>
   
 <!-- background circle -->
-<div class="backgroundcircle">
-  <img src="dist/images/girl.png" alt="" class="backgroundcircle__girlImage">
-</div>
+
 <!-- Header section -->
 <header class="header">
+    <div class="backgroundcircle">
+    <img src="dist/images/girl.png" alt="" class="backgroundcircle__girlImage">
+    </div>
   <div class="header__logo-container">
     <img srcset="dist/images/logo.png 1920w, dist/images/logoWhite.png 1400w" alt="" class="header__logo">
   </div>
@@ -193,7 +194,10 @@ if (isset($_GET['order'])) {
           }
         );
       </script> -->
-
+<script>
+    document.body.style.overflowX = 'hidden';
+    document.html.style.overflowX = 'hidden';
+</script>
 
 </body>
 </html>
