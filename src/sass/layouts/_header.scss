@@ -81,6 +81,17 @@
     }
     &__logo{
         width: 15rem;
+        &--dark{
+            @include custom_media(1400){
+                display: none;
+            }
+        }
+        &--white{
+            display: none;
+            @include custom_media(1400){
+                display: block;
+            }
+        }
     }
     &-sankMagic{
         background-color: $color-white;

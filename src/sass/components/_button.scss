@@ -211,9 +211,9 @@
 
 }
 
-.button-sticky {
+body > div.buy-now-sticky > a.btn.btn--tertiary.button-sticky.b-center{
 	width: 50%;
-	margin: 0 auto;
+	margin: 1rem auto;
     display: block;
     text-align: center;
 	&:not(:last-child){
@@ -222,6 +222,22 @@
 	position: relative;
 
 }
+
+.buy-now-sticky {
+    direction: ltr;
+	padding: .6rem 4rem;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 12;
+	display: flex;
+    @include custom_media(640) {
+       padding: .6rem 1.5rem;
+    }
+}
+
+
 
 .button-popup{
 	width: 30%;

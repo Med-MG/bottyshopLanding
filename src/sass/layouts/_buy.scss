@@ -23,6 +23,18 @@
             grid-area: 3/1/4/3;
             width: 100%;
         }
+
+        &--pc{
+            @include custom_media(1400){
+                display: none;
+            }
+        }
+        &--mobile{
+            display: none;
+            @include custom_media(1400){
+                display: block;
+            }
+        }
     }
     &__form{
         grid-area: 2/2/3/3;
