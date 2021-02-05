@@ -25,6 +25,9 @@
         justify-content: space-around;
         background-color: rgba(185, 185, 185, .1);
         padding: 10rem;
+        @include responsive(phone-1) {
+            flex-flow: column wrap;
+        }
     }
     &__item{
         text-align: center;
