@@ -102,7 +102,7 @@
   <img src="dist/images/Recblue.svg" alt="" class="buy__designRec">
   <div class="sectionHeader">
     <img src="dist/images/TitleIcon.svg" alt="" class="sectionHeader__img">
-    <h1 class="sectionHeader__title">أطالب الأن</h1>
+    <h1 class="sectionHeader__title">أطلب الأن</h1>
   </div>
   <div class="buy__layout">
     <img src="dist/images/footerimg.png" alt="" class="buy__image buy__image--pc">
