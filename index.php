@@ -80,23 +80,23 @@
   </div>
   <ul class="benefits__list list-unstyled">
       <li class="benefits__item">
-        <img src="images/bkk1.png" alt="" class="benefits__img">
+        <img src="dist/images/bkk1.png" alt="" class="benefits__img">
         <h3 class="benefits__description">يساعد الطفل على تعلم كتابة كل الحروف و تحسين الخط و كذلك تذكر معظم الكلمات و الحروف نظرا 
           لأن الطريقة المعتمدة في هذه الكتب فريدة من نوعها تجعل الطفل يتذكر معظم المعلومات</h3>
       </li>
       <li class="benefits__item">
-        <img src="images/bkk2.png" alt="" class="benefits__img">
+        <img src="dist/images/bkk2.png" alt="" class="benefits__img">
         <h3 class="benefits__description">يساعد الطفل على تعلم عدة كلمات هامة مع رسم صورها  لكي تصبح عملية التعلم  ممتعة لدى الطفل
           ولا يمل منها، لان هذا ماينصح به خبراء التنمية البشرية إضافة المتعة إلى البرنامج التعليمي 
           وهذا ماتوفره كتب CalliBook</h3>
       </li>
       <li class="benefits__item">
-        <img src="images/bkk3.png" alt="" class="benefits__img">
+        <img src="dist/images/bkk3.png" alt="" class="benefits__img">
         <h3 class="benefits__description">يتعلم الطفل في هذا الكتاب جميع الاعداد والتمرن على حل بعض العمليات الحسابية  كذلك
           يوفر له خاصية كتابة الأعداد بطريقة  إبداعية لضمان تذكر معظم الأعداد</h3>
       </li>
       <li class="benefits__item">
-        <img src="images/bkk4.png" alt="" class="benefits__img">
+        <img src="dist/images/bkk4.png" alt="" class="benefits__img">
         <h3 class="benefits__description">من المهم بالنسبة لك منذ اللحظة الأولى غرس الإيماءة الصحيحة. تأتي معظم الصعوبات من الأساس الخطأ عند تعلمها تتيح له طريقة التدريس هذه أن يتبنى عقليًا الإيماءة الصحيحة اللازمة لتشكيل الحرف المطلوب بشكل صحيح</h3>
       </li>
     </ul>
